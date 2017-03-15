@@ -12,20 +12,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
-package com.example.android.datafrominternet.utilities;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Scanner;
-
-/**
- * These utilities will be used to communicate with the network.
- */
-public class NetworkUtils {
-
     final static String GITHUB_BASE_URL =
             "https://api.github.com/search/repositories";
 
